@@ -1,4 +1,5 @@
 import React from 'react';
+import createReactClass from "create-react-class";
 import {
     StyleSheet,
     Text,
@@ -19,7 +20,7 @@ var styles = StyleSheet.create({
   }
 });
 
-var ProgressBar = React.createClass({
+var ProgressBar = createReactClass({
 
   getDefaultProps() {
     return {
